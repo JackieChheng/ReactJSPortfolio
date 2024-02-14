@@ -10,8 +10,8 @@ module.exports = {
       },
     },
     fontFamily: {
-      signature: ["Satisfy"],
       default: ["Raleway"],
+      signature: ["Satisfy"],
     },
   },
   plugins: [],
