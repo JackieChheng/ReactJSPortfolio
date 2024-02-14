@@ -1,13 +1,33 @@
+import JAMSearchGamers from '../assets/portfolio/JAMSearchGamers.png';
+import SuperBasicMinigames from '../assets/portfolio/SuperFunGames.png';
+
 const Portfolio = () => {
 
     const portfolios = [
+
       {
         id:1,
-        demoUrl:'',
-        codeUrl:'',
-        title:'',
-        description:''
-      }
+        demoUrl:'https://github.com/JackieChheng/ReactJSPortfolio',
+        codeUrl:'https://github.com/JackieChheng/ReactJSPortfolio',
+        title:'ReactJSPortfolio',
+        description:'React JS Portfolio made by using TailWind CSS and React JS.'
+      },
+      {
+        id:2,
+        src:SuperBasicMinigames,
+        demoUrl:'https://github.com/shawncrook411/minigame',
+        codeUrl:'https://github.com/shawncrook411/minigame',
+        title:'SuperBasicGames',
+        description:'Minigames website that uses MySQL and MVC.'
+      },
+      {
+        id:3,
+        src:JAMSearchGamers,
+        demoUrl:'https://jackiechheng.github.io/JAMSearchGamers/',
+        codeUrl:'https://github.com/JackieChheng/JAMSearchGamers',
+        title:'JAMSearchGamers',
+        description:'Uses APIs to retrieve data from EpicGames to help show data on website.'
+      },
     ]
     function handleDemoClick(demoUrl) {
         window.open(demoUrl, "_blank");
@@ -28,7 +48,7 @@ const Portfolio = () => {
         <article key={id} className='shadow-md shadow-purple-500 rounded-lg duration-200 hover:scale-105'>
           <h2 className="text-xl text-center font-bold shadow-md shadow-indigo-500">{title}</h2>
           <div className='flex justify-between items-center'>
-            {title === 'Retro Rush' && <span className='text-sm bg-yellow-300 text-black py-1 px-2 rounded'>Featured</span>}
+            {title === 'PeakPursuit' && <span className='text-sm bg-yellow-300 text-black py-1 px-2 rounded'>Featured</span>}
           </div>
           <p className='text-sm m-2'>{description}</p>
           <img src={src} alt={title} className='rounded-md' />

@@ -30,7 +30,7 @@ const SocialLinks = () => {
                 <>Resume<BsPersonVcard size={30}/>
                     </>
             ),
-            href:'',
+            href:'Jackie Chheng Resume 2024.pdf',
             download: true,
         },
         {
