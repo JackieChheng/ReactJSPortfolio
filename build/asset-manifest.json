@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.a5048290.css",
-    "main.js": "/static/js/main.040fdc66.js",
+    "main.js": "/static/js/main.43ab0d98.js",
     "static/media/HeroImage.jpg": "/static/media/HeroImage.fb8b95ce3bf40ac6f3fa.jpg",
     "static/media/JAMSearchGamers.png": "/static/media/JAMSearchGamers.126d10d8647184a4070f.png",
     "static/media/PeakPursuit.png": "/static/media/PeakPursuit.eb739a1628981aa572aa.png",
@@ -19,10 +19,10 @@
     "static/media/javascript.png": "/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
     "index.html": "/index.html",
     "main.a5048290.css.map": "/static/css/main.a5048290.css.map",
-    "main.040fdc66.js.map": "/static/js/main.040fdc66.js.map"
+    "main.43ab0d98.js.map": "/static/js/main.43ab0d98.js.map"
   },
   "entrypoints": [
     "static/css/main.a5048290.css",
-    "static/js/main.040fdc66.js"
+    "static/js/main.43ab0d98.js"
   ]
 }

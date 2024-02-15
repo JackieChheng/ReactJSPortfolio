@@ -69,7 +69,7 @@ const Portfolio = () => {
   <article className='max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full'>
     <header className='mt-20 pb-8 sm:mt-0'>
       <h1 className='text-4xl font-bold inline border-b-4 border-pink-500'>🎨 Portfolio</h1>
-      <p className='py-6'> <a href="" className="text-pink-500 hover:underline"></a></p>
+      <p className='py-6'><a href="" className="text-pink-500 hover:underline"></a></p>
     </header>
     <section className='grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0'>
       {portfolios.map(({ id, src, demoUrl, codeUrl, title, description }) => (
