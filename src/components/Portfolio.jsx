@@ -23,10 +23,34 @@ const Portfolio = () => {
       {
         id:3,
         src:JAMSearchGamers,
-        demoUrl:'https://jackiechheng.github.io/JAMSearchGamers/',
-        codeUrl:'https://github.com/JackieChheng/JAMSearchGamers',
-        title:'JAMSearchGamers',
-        description:'Uses APIs to retrieve data from EpicGames to help show data on website.'
+        demoUrl:'https://github.com/JackieChheng/TextEditor',
+        codeUrl:'https://github.com/JackieChheng/TextEditor',
+        title:'TextEditor',
+        description:'Uses a PWA that can be remotely installed and used offline if wanted.'
+      },
+      {
+        id:4,
+        src:JAMSearchGamers,
+        demoUrl:'https://jackiechheng.github.io/FunQuiz/',
+        codeUrl:'https://github.com/JackieChheng/FunQuiz',
+        title:'FunQuiz',
+        description:'Uses Javascript and local storage to help keep track of points in a quiz!'
+      },
+      {
+        id:5,
+        src:JAMSearchGamers,
+        demoUrl:'https://github.com/JackieChheng/EmployeeTracker',
+        codeUrl:'https://github.com/JackieChheng/EmployeeTracker',
+        title:'EmployeeTracker',
+        description:'Uses MySQL to retrieve data and can be altered within the databases.'
+      },
+      {
+        id:6,
+        src:JAMSearchGamers,
+        demoUrl:'https://github.com/phechzzz/PeakPursuit',
+        codeUrl:'https://github.com/phechzzz/PeakPursuit',
+        title:'PeakPursuit',
+        description:'Uses a MERN Stack such as Sequelize, Tailwind CSS, and ReactJS to make a fitness tracking app.'
       },
     ]
     function handleDemoClick(demoUrl) {
