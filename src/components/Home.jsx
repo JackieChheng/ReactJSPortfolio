@@ -1,4 +1,4 @@
-import HeroImage from '../assets/HeroImage.jpg';
+import HeroImage from '../assets/images/HeroImage.jpg';
 import { TiArrowRightOutline}from "react-icons/ti";
 import { Link } from 'react-scroll';
 
