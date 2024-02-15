@@ -1,16 +1,20 @@
 import JAMSearchGamers from '../assets/portfolio/JAMSearchGamers.png';
 import SuperBasicMinigames from '../assets/portfolio/SuperFunGames.png';
+import EmployeeTracker from '../assets/portfolio/EmployeeTracker.png';
+import TextEditor from '../assets/portfolio/TextEditor.png';
+import PeakPursuit from '../assets/portfolio/PeakPursuit.png';
+import FunQuiz from '../assets/portfolio/FunQuiz.png';
 
 const Portfolio = () => {
 
     const portfolios = [
-
       {
-        id:1,
-        demoUrl:'https://github.com/JackieChheng/ReactJSPortfolio',
-        codeUrl:'https://github.com/JackieChheng/ReactJSPortfolio',
-        title:'ReactJSPortfolio',
-        description:'React JS Portfolio made by using TailWind CSS and React JS.'
+        id:6,
+        src:PeakPursuit,
+        demoUrl:'https://github.com/phechzzz/PeakPursuit',
+        codeUrl:'https://github.com/phechzzz/PeakPursuit',
+        title:'PeakPursuit',
+        description:'Uses a MERN Stack such as Sequelize, Tailwind CSS, and ReactJS to make a fitness tracking app.'
       },
       {
         id:2,
@@ -22,7 +26,7 @@ const Portfolio = () => {
       },
       {
         id:3,
-        src:JAMSearchGamers,
+        src:TextEditor,
         demoUrl:'https://github.com/JackieChheng/TextEditor',
         codeUrl:'https://github.com/JackieChheng/TextEditor',
         title:'TextEditor',
@@ -30,7 +34,7 @@ const Portfolio = () => {
       },
       {
         id:4,
-        src:JAMSearchGamers,
+        src:FunQuiz,
         demoUrl:'https://jackiechheng.github.io/FunQuiz/',
         codeUrl:'https://github.com/JackieChheng/FunQuiz',
         title:'FunQuiz',
@@ -38,7 +42,7 @@ const Portfolio = () => {
       },
       {
         id:5,
-        src:JAMSearchGamers,
+        src:EmployeeTracker,
         demoUrl:'https://github.com/JackieChheng/EmployeeTracker',
         codeUrl:'https://github.com/JackieChheng/EmployeeTracker',
         title:'EmployeeTracker',
@@ -46,11 +50,11 @@ const Portfolio = () => {
       },
       {
         id:6,
-        src:JAMSearchGamers,
-        demoUrl:'https://github.com/phechzzz/PeakPursuit',
-        codeUrl:'https://github.com/phechzzz/PeakPursuit',
-        title:'PeakPursuit',
-        description:'Uses a MERN Stack such as Sequelize, Tailwind CSS, and ReactJS to make a fitness tracking app.'
+        src: JAMSearchGamers,
+        demoUrl:'https://jackiechheng.github.io/JAMSearchGamers/',
+        codeUrl:'https://github.com/JackieChheng/JAMSearchGamers',
+        title:'ReactJSPortfolio',
+        description:'React JS Portfolio made by using TailWind CSS and React JS.'
       },
     ]
     function handleDemoClick(demoUrl) {
